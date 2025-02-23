@@ -4,10 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Cart Elements</title>
 </head>
 
 <body>
+    <section>
+        <!-- <h1 class="text-5xl font-bold">Login now!</h1> -->
+        <h1 class="flex justify-center py-6 text-4xl font-medium">Add Elements Here</h1>
+        <div class="hero-content flex-col lg:flex-row-reverse">
+
+            <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <div class="card-body">
+                    <fieldset class="fieldset">
+                        <label class="fieldset-label">Name</label>
+                        <input id="input-name" type="text" class="input" placeholder="Type Name" />
+                        <label class="fieldset-label">Images</label>
+                        <input id="input-img" type="text" class="input" placeholder="image url" />
+                        <label class="fieldset-label">Description</label>
+                        <input id="input-desc" type="text" class="input" placeholder="Write few description" />
+
+                        <button id="btn-add" class="btn btn-neutral mt-4">Add here +</button>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- store div  -->
+    <div id="product-list" class="container mx-auto">
+
+    </div>
 
     <script src="js/app.js"></script>
 </body>
