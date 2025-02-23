@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamic Product List</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-         /* Custom styles  */
+        /* Custom styles  */
         .product-card {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -26,6 +27,7 @@
             <h1 class="text-4xl font-bold text-[#4307B5]">Add a New Product</h1>
             <p class="text-gray-600">Fill in the details below to add a product.</p>
         </header>
+        <img class="mx-auto py-4 w-80" src="assets/cart-img.svg" alt="">
 
         <!-- Input Form -->
         <div class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md">
@@ -37,7 +39,7 @@
                 class="w-full p-2 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8A03B5]">
             <button id="btn-add"
                 class="w-full bg-[#4307B5] text-white p-2 rounded-lg hover:bg-[#8A03B5] transition duration-300">Add
-                Product</button>
+                Product +</button>
         </div>
 
         <!-- Product List -->
